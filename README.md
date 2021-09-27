@@ -1,6 +1,6 @@
 # Cookiecutter Mkdoc ShaPackage
 
-用于Python打包的[Cookiecutter](https://github.com/cookiecutter/cookiecutter)模板。 由 Poetry、GitHub 操作和 MkDocs-Material 提供支持。 
+用于Python打包的[Cookiecutter](https://github.com/cookiecutter/cookiecutter)模板。 由 Poetry、GitHub 操作和 MkDocs 提供支持。 
 
 ## 特征 
 该模板具有以下特点：
