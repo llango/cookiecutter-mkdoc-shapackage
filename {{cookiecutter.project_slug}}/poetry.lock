@@ -242,9 +242,9 @@ PyYAML = ">=3.10"
 tornado = ">=5.0"
 
 [[package]]
-name = "mkdocs-material"
-version = "6.1.7"
-description = "A Material Design theme for MkDocs"
+name = "shadocs"
+version = "0.1.1"
+description = "Cookiecutter ShaPackage 包含创建Python包所需的所有模板文件"
 category = "dev"
 optional = false
 python-versions = "*"
