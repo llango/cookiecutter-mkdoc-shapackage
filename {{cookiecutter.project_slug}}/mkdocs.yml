@@ -10,17 +10,17 @@ repo_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2020 {{ cookiecutter.full_name }}
+copyright: 版权 &copy; 2021 {{ cookiecutter.full_name }}
 
 # Configuration
 theme:
-  name: material
+  name: shadocs
   icon:
     repo: fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tabs
-  language: en
+  language: cn
 
 # Footer
 extra:
@@ -31,4 +31,4 @@ extra:
 
 # Page tree
 nav:
-  - Home: index.md
+  - 首页: index.md
