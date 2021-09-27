@@ -1,0 +1,47 @@
+---
+# Project Information
+site_name: Cookiecutter mkdoc ShaPackage
+site_author: llango
+site_description: >-
+    用于Python打包的cookiecutter模板。 由 Poetry、GitHub 操作和 MkDocs-Material 提供支持。 
+
+# Repository information
+repo_name: llango/cookiecutter-mkdoc-shapackage
+repo_url: https://github.com/llango/cookiecutter-mkdoc-shapackage
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2010 - 2021 llango
+
+# Configuration
+theme:
+  name: shadocs
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tabs
+  language: cn
+
+# Footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mgancita
+      name: mgancita on GitHub
+    - icon: fontawesome/brands/kaggle
+      link: https://kaggle.com/mgancita
+      name: mgancita on Kaggle
+
+# Page tree
+nav:
+  - Home:
+    - Introduction: index.md
+  - Getting started:
+    - Create local project: getting-started/create_local_project.md
+    - Connect to remote repository: getting-started/connect_to_remote_repo.md
+    - Configure GitHub repository: getting-started/configure_github_repo.md
+    - Publish to test PyPI: getting-started/publish_to_test_pypi.md
+    - Publish to PyPI: getting-started/publish_to_pypi.md
+  - Advanced:
+    - Feature explanation: advanced/feature_explanation.md
