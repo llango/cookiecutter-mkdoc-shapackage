@@ -1,10 +1,10 @@
 # Credits
 
 
-## Development Lead
+## 主要开发者
 
 * {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
 
-## Contributors
+## 贡献者
 
-None yet. Why not be the first?
+还没有。为什么不做第一个呢?

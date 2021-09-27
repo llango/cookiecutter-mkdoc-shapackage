@@ -14,15 +14,15 @@
 {{ cookiecutter.project_short_description }}
 
 {% if is_open_source %}
-- Free software: {{ cookiecutter.open_source_license }}
-- Documentation: https://{{ cookiecutter.github_username }}.github.io/{{ project_github_link }}.
+- 开源许可: {{ cookiecutter.open_source_license }}
+- 文档: https://{{ cookiecutter.github_username }}.github.io/{{ project_github_link }}.
 {% endif %}
 
-## Features
+## 特征
 
 * TODO
 
-## Credits
+## 制作
 
 
-This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [`llango/cookiecutter-mkdoc-shapackage`](https://github.com/llango/cookiecutter-mkdoc-shapackage/) project template.
+该包使用 [Cookiecutter](https://github.com/audreyr/cookiecutter) 和 [`llango/cookiecutter-mkdoc-shapackage`](https://github.com/llango/cookiecutter-mkdoc-shapackage/) 项目模版创建。
