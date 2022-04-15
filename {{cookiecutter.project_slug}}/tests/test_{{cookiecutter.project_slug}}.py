@@ -1,4 +1,4 @@
-"""Test module for {{cookiecutter.project_slug}}."""
+""" {{cookiecutter.project_slug}} 测试模块。"""
 
 from {{cookiecutter.project_slug}} import __author__, __email__, __version__
 

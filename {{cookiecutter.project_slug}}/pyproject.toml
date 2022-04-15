@@ -41,6 +41,7 @@ importlib_metadata = "^3.4.0"
 [tool.poetry.dev-dependencies]
 {% if cookiecutter.use_github_actions_to_publish_docs == 'y' -%}
 mkdocs-material = "^6.1.5"{% endif %}
+shadocs = "^0.1.2"
 {% if cookiecutter.use_pytest == 'y' -%}
 pytest = "^6.0"
 pytest-cov = "^2.10.1"{% endif %}

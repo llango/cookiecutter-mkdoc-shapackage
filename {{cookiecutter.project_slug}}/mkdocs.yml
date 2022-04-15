@@ -1,18 +1,18 @@
 ---
-# Project Information
+# 项目信息
 site_name: {{ cookiecutter.project_name }}
 site_author: {{ cookiecutter.full_name }}
 site_description: {{ cookiecutter.project_short_description }}
 
-# Repository information
+# Github信息
 repo_name: {{ cookiecutter.github_username }}/{{ cookiecutter.project_slug.replace('_', '-') }}
 repo_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug.replace('_', '-') }}
 edit_uri: ""
 
-# Copyright
+# 版权
 copyright: 版权 &copy; 2021 {{ cookiecutter.full_name }}
 
-# Configuration
+# 配置
 theme:
   name: shadocs
   icon:
@@ -22,13 +22,14 @@ theme:
     - navigation.tabs
   language: cn
 
-# Footer
+# 页脚
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/{{ cookiecutter.github_username }}
       name: {{ cookiecutter.github_username }} on GitHub
 
-# Page tree
+# 导航
 nav:
   - 首页: index.md
+  - 版本: version.md

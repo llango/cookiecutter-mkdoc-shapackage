@@ -1,19 +1,19 @@
 ---
-# Project Information
+# 项目信息
 site_name: Cookiecutter mkdoc ShaPackage
 site_author: llango
 site_description: >-
     用于Python打包的cookiecutter模板。 由 Poetry、GitHub 操作和 MkDocs-Material 提供支持。 
 
-# Repository information
+# github信息
 repo_name: llango/cookiecutter-mkdoc-shapackage
 repo_url: https://github.com/llango/cookiecutter-mkdoc-shapackage
 edit_uri: ""
 
-# Copyright
+# 版权
 copyright: Copyright &copy; 2010 - 2021 llango
 
-# Configuration
+# 配置
 theme:
   name: shadocs
   icon:
@@ -23,7 +23,7 @@ theme:
     - navigation.tabs
   language: cn
 
-# Footer
+# 页脚
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -33,7 +33,7 @@ extra:
       link: https://kaggle.com/mgancita
       name: mgancita on Kaggle
 
-# Page tree
+# 导航
 nav:
   - Home:
     - Introduction: index.md
