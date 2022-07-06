@@ -26,7 +26,7 @@
 
 ### 写文档
 
-{{ cookiecutter.project_name }} 是可以使用更多的文档内容充实官方的{{cookiecutter.Project_name}} 文档。
+{{ cookiecutter.project_name }} 是可以使用更多的文档内容充实官方的{{cookiecutter.project_name}} 文档。
 
 ### 提交反馈
 
