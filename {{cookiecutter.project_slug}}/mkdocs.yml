@@ -5,7 +5,7 @@ site_author: {{ cookiecutter.full_name }}
 site_description: {{ cookiecutter.project_short_description }}
 
 # Github信息
-repo_name: {{ cookiecutter.github_username }}/{{ cookiecutter.project_slug.replace('_', '-') }}
+repo_name: {{ cookiecutter.github_username }}/{{ cookiecutter.project_slug.replace('_', '-') }} 
 repo_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug.replace('_', '-') }}
 edit_uri: ""
 
