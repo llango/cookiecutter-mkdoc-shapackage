@@ -36,7 +36,6 @@ include = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
-importlib_metadata = "^3.4.0"
 
 [tool.poetry.dev-dependencies]
 {% if cookiecutter.use_github_actions_to_publish_docs == 'y' -%}
